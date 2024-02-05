@@ -1,0 +1,17 @@
+.main{
+
+}
+.buy{
+    display: inline-block;
+}
+.product{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+    background-color: brown;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+.product-image{
+    display: block;
+}

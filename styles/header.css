@@ -1,0 +1,42 @@
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(65, 35, 22);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header div{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(165,135,122);
+    padding: 10px;
+}
+.left-header{
+    font-size: 40px;
+}
+.middle-header{
+    animation: alternate;
+}
+.search{
+    height: 40px;
+    display: flex;
+}
+.search-bar{
+    height: 100%;
+}
+.search-bar::placeholder{
+    font-size: 20px;
+}
+.search-icon{
+    padding: 5px;
+    height: 30px;
+    background-color: rgb(90, 58, 45);
+}
+.right-header{
+    height: 60px;
+}
+.nigga-profile{
+    height: 60px;
+    border-radius: 50%;
+}
